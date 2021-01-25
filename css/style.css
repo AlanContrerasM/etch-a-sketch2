@@ -16,15 +16,21 @@ html, body{
     grid-template-rows: 1fr 4fr;
 }
 
+#header{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
 h1{
     font-size: 2em;
 }
 
 #canvas{
-    background-color: orange;
+    background-color: black;
     min-width: 70vh;
     min-height: 70vh;
-    padding: 10px;
+    border: 10px solid orange;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
